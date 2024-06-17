@@ -9,16 +9,16 @@ submit.addEventListener("click", function() {
 
     // Do Now: Complete tasks 1-5.
 
-    if (userInput === "English") {
-        div.innerHTML = ""; // 1. Replace empty string with correct array element
-    } else if (userInput === "Spanish") {
-        div.innerHTML = ""; // 2. Replace empty string with correct array element
-    } else if (userInput === "French") {
-        div.innerHTML = ""; // 3. Replace empty string with correct array element
-    } else if (userInput === "German") {
-        div.innerHTML = ""; // 4. Replace empty string with correct array element
-    } else if (userInput === "Japanese") {
-        div.innerHTML = ""; // 5. Replace empty string with correct array element
+    if (userInput === "English" || userInput==="english") {
+        div.innerHTML = "Hello"; // 1. Replace empty string with correct array element
+    } else if (userInput === "Spanish"|| userInput==="spanish") {
+        div.innerHTML = "Hola"; // 2. Replace empty string with correct array element
+    } else if (userInput === "French"|| userInput==="french") {
+        div.innerHTML = "Bonjour"; // 3. Replace empty string with correct array element
+    } else if (userInput === "German"||userInput==="german") {
+        div.innerHTML = "Hallo"; // 4. Replace empty string with correct array element
+    } else if (userInput === "Japanese"||userInput==="japanese") {
+        div.innerHTML = "Konnichiwas"; // 5. Replace empty string with correct array element
     } else {
         div.innerHTML = "Apologies, I do not support that language.";
     }

@@ -38,9 +38,9 @@ myArray5.unshift(1);
 
 console.log(myArray5); // Should print [1, 2, 3, 4]
 
+combinedArray = [...myArray3, ...myArray4];
 
-
-
+console.log()
 // CHALLENGE
 // Look up how a spread operator works.
 //  - Try combing a couple of the arrays above using it.
